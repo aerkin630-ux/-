@@ -1,0 +1,76 @@
+﻿ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FAST & FURIOUS</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}body{background:#0a0015;color:#e0d0ff;font-family:Roboto,sans-serif;line-height:1.6}header{position:fixed;top:0;left:0;right:0;background:rgba(10,0,30,.85);backdrop-filter:blur(12px);border-bottom:2px solid #7b2cff;z-index:100;padding:1rem 5%;display:flex;justify-content:space-between;align-items:center}h1{font-family:Orbitron,sans-serif;font-size:3.5rem;letter-spacing:8px;color:#d500f9;text-shadow:0 0 18px #d500f9,0 0 35px #7b2cff}nav a{color:#ddd;text-decoration:none;margin-left:2.8rem;font-weight:700;transition:.3s}nav a:hover{color:#d500f9}.hero{height:100vh;background:linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.45)),url('car1.jpg') center/cover no-repeat fixed;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}.hero h2{font-size:7rem;font-family:Orbitron,sans-serif;color:#fff;text-shadow:0 0 50px #7b2cff;margin-bottom:1.5rem}.hero p{font-size:1.8rem;max-width:700px;color:#ccc}section{padding:10rem 5% 6rem;max-width:1400px;margin:auto}h2.section-title{font-family:Orbitron,sans-serif;font-size:4rem;color:#d500f9;text-align:center;margin-bottom:3rem;text-shadow:0 0 25px #7b2cff}.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(380px,1fr));gap:2.5rem}.card{background:rgba(25,15,55,.7);border:2px solid #7b2cff;border-radius:16px;overflow:hidden;transition:all .4s}.card:hover{transform:translateY(-15px) scale(1.03);box-shadow:0 0 60px #d500f9}.card img{width:100%;height:280px;object-fit:cover}.card p{padding:1.5rem;text-align:center;font-size:1.2rem;color:#ddd}table{width:100%;max-width:1000px;margin:0 auto;border-collapse:collapse;font-size:1.15rem}th,td{padding:1.4rem 1.8rem;border:1px solid #7b2cff;text-align:left}th{background:#2a0055;color:#d500f9;font-weight:700}tr:nth-child(even){background:rgba(123,44,255,.08)}tr:hover{background:rgba(123,44,255,.2)}.video-box{max-width:1000px;margin:0 auto;border:4px solid #7b2cff;border-radius:20px;overflow:hidden;box-shadow:0 0 70px rgba(213,0,249,.4)}.buttons{text-align:center;margin:4rem 0}.btn{display:inline-block;padding:1.4rem 3.5rem;background:linear-gradient(90deg,#7b2cff,#d500f9);color:#fff;text-decoration:none;font-size:1.5rem;font-weight:700;border-radius:60px;margin:0 1.5rem;transition:all .35s}.btn:hover{transform:scale(1.1);box-shadow:0 0 40px #d500f9}footer{text-align:center;padding:4rem 0;color:#777;font-size:1.1rem;border-top:1px solid #333}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>FAST & FURIOUS</h1>
+  <nav>
+    <a href="#gallery">Cars</a>
+    <a href="#cast">Cast</a>
+    <a href="#sound">Soundtrack</a>
+    <a href="#video">Behind Scenes</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h2>FAST & FURIOUS</h2>
+ 
+</div>
+
+<section id="gallery">
+  <h2 class="section-title">Iconic Rides</h2>
+  <div class="gallery">
+    <div class="card"><img src="car1.jpg" alt=""><p>Toyota Supra - Neon Green</p></div>
+    <div class="card"><img src="car2.jpg" alt=""><p>Nissan Skyline R34 - Blue Stripes</p></div>
+    <div class="card"><img src="car3.jpg" alt=""><p>Nissan Skyline - Yellow Drift</p></div>
+  </div>
+</section>
+
+<section id="cast">
+  <h2 class="section-title">Main Cast</h2>
+  <table>
+    <tr><th>Character</th><th>Actor</th><th>Role</th></tr>
+    <tr><td>Dominic Toretto</td><td>Vin Diesel</td><td>Лидер, семейный человек</td></tr>
+    <tr><td>Brian O'Conner</td><td>Paul Walker</td><td>Полицейский,гонщик </td></tr>
+    <tr><td>Letty Ortiz</td><td>Michelle Rodriguez</td><td>Девушка Доминика, гонщица </td></tr>
+    <tr><td>Luke Hobbs</td><td>Dwayne Johnson</td><td>Агент, друг семьи </td></tr>
+    <tr><td>Mia Toretto</td><td>Jordana Brewster</td><td>Сестра Доминика,девушка Коннора</td></tr>
+    <tr><td>Roman Pearce</td><td>Tyrese Gibson</td><td>Друг Брайна</td></tr>
+    <tr><td>Tej Parker</td><td>Ludacris</td><td>Парень технология, хакер</td></tr>
+  </table>
+</section>
+
+<section id="sound">
+  <h2 class="section-title">See You Again</h2>
+  <div class="video-box">
+    <video controls width="100%" poster="poster-cast.jpg">
+      <source src="see-you-again.mp4" type="video/mp4">
+      Your browser does not support video.
+    </video>
+  </div>
+  <p style="text-align:center;margin-top:1rem;color:#aaa;">Wiz Khalifa ft. Charlie Puth • For Paul</p>
+</section>
+
+<section id="video" style="text-align:center;">
+  <h2 class="section-title">Behind the Scenes</h2>
+  <div class="buttons">
+    <a href="https://yandex.kz/video/touch/preview/10436047995051766655?parent-reqid=1772514078162752-15136325224001013055-balancer-l7leveler-kubr-yp-klg-79-BAL" target="_blank" class="btn">Watch Clip</a>
+    <a href="https://www.kinopoisk.ru/film/666/" target="_blank" class="btn">Kinopoisk</a>
+  </div>
+</section>
+
+<footer>
+  Created by Yerken Aruzhan<br>2026
+</footer>
+
+</body>
+</html>
